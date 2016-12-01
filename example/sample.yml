@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  SayHello:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: hello.handler
+      Runtime: nodejs4.3
+ 
+  SayGoodbye:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: goodbye.handler
+      Runtime: nodejs4.3

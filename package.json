@@ -1,0 +1,12 @@
+{
+  "name": "docker-lambda-api-server",
+  "version": "1.0.0",
+  "bin": {
+    "docker-lambda-api-server": "docker-lambda-api-server.js"
+  },
+  "dependencies": {
+    "args": "^2.1.0",
+    "docker-lambda": "^0.9.1",
+    "js-yaml": "^3.7.0"
+  }
+}
