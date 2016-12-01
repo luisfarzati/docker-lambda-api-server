@@ -12,6 +12,8 @@ Prerequisites
 
 Same as [docker-lambda](https://github.com/lambci/docker-lambda#prerequisites).
 
+Tested with the latest Node LTS (v6.9.1).
+
 Installation
 ------------
 
